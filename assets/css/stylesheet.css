@@ -1932,7 +1932,7 @@ and (max-width:1280px) and (max-width:1024px)
     width: 50%;
     height: 1px;
     background-color: #EC0169;
-    bottom: 0px;
+    bottom: -25px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -2049,7 +2049,7 @@ and (max-width:1280px) and (max-width:1024px)
     width: 50%;
     height: 1px;
     background-color: #EC0169;
-    bottom: 0px;
+    bottom: -25px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -2169,7 +2169,7 @@ and (max-width:1280px) and (max-width:1024px)
     width: 50%;
     height: 1px;
     background-color: #EC0169;
-    bottom: 0px;
+    bottom: -25px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
