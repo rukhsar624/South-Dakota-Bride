@@ -186,6 +186,11 @@ body::-webkit-scrollbar-thumb{
       padding: 9px 30px;
     transition: 0.5s all ease-in-out;
 }
+.reg-btn:hover{
+    border: 1px solid #EC0169;
+    background-color: #FFF;
+    color: #EC0169;
+}
 /* Home Banner Css */
 .line-after , .line-before ,.line-center{
     height: 166px;
@@ -258,6 +263,12 @@ padding-left: 2rem;
     padding: 8px 30px;
     transition: 0.5s all ease-in-out;
     background-color: #FFF;
+}
+.sign-btn:hover{
+    background-color: #EC0169;
+    color: #FFF;
+
+
 }
 .reg-div{
     margin-right: 10px;
@@ -1188,6 +1199,11 @@ font-family: 'Cinzel-Medium';
     width: 100%;
     transition: 0.5s all ease-in-out;
 }
+.reg-btn-button:hover{
+    background-color: #FFF;
+    border:1px solid #EC0169;
+    color: #000;
+}
 .csContainer {
     width: 1290px;
     margin: auto;
@@ -1291,6 +1307,11 @@ font-family: 'Cinzel-Medium';
     border: none;
     padding: 10px 35px;
   transition: 0.5s all ease-in-out;
+}
+.change-pwd:hover{
+    background-color: #FFF;
+    border: 1px solid #EC0169;
+    color: #000;
 }
 .signin-section input{
     padding: 20px 25px;
