@@ -13,6 +13,10 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- SWIPER SLIDER CSS -->
     <link rel="stylesheet" href="../css/swiper-bundle.css" />
+    <!-- Butter JS -->
+    <link rel="stylesheet" href="../css/butter.css">
+    <!--WOW JS  -->
+    <link rel="stylesheet" href="../css/wow.css">
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="../css/stylesheet.css">
     <title>South-Dakota-Bride | Payment</title>
@@ -88,14 +92,42 @@
                         <input placeholder="CV code" class="textbox-n" type="text">
                      </div>
                      <div class="col-lg-8 mx-auto mt-5 text-center">
-                        <a href=""><button class="change-pwd">Find Payment</button></a>
+                        <div class="paymentWrap d-flex justify-content-center">
+							<div class="btn-group paymentBtnGroup btn-group-justified" data-toggle="buttons">
+					            <label class="btn paymentMethod">
+					            	<div class="method visa"></div>
+					                <input type="radio" name="options" checked> 
+					            </label>
+					            <label class="btn paymentMethod">
+					            	<div class="method master-card"></div>
+					                <input type="radio" name="options"> 
+					            </label>
+					            <label class="btn paymentMethod">
+				            		<div class="method amex"></div>
+					                <input type="radio" name="options">
+					            </label>
+					             <label class="btn paymentMethod">
+				             		<div class="method vishwa"></div>
+					                <input type="radio" name="options"> 
+					            </label>
+					            <!-- <label class="btn paymentMethod">
+				            		<div class="method ez-cash"></div>
+					                <input type="radio" name="options"> 
+					            </label> -->
+					         
+					        </div>        
+						</div>
                      </div>
-                     <div class="col-lg-8 mx-auto mt-5 text-center">
+                     <!-- <div class="col-lg-8 mx-auto mt-5 text-center">
                         <a href=""><button class="change-pwd"> Pay</button></a>
+                     </div> -->
+                     <div class="col-lg-6 mx-auto mt-4 text-center">
+                        <a href=""><button class="change-pwd">final Payment</button></a>
                      </div>
                    </div>
                </div>
            </div>
+          
     </section>
     <!-- ==============================================SIGN IN CLOSED========================================= -->
     <!-- ==============================================FOOTER START============================================== -->
@@ -204,14 +236,16 @@
 
 
 
-      <!-- ====Jquery JS ==== -->
+    <!-- ====Jquery JS ==== -->
     <script src="../js/jquery.min.js"> </script>
     <!-- ===Boostrap Bundle JS ====-->
     <script src="../js/bootstrap.bundle.min.js"> </script>
     <!-- swiper slider js -->
     <script src="../js/swiper-bundle.min.js"></script>
-     <!-- Butter JS -->
-     <script src="../js/butter.js"></script>
+    <!-- Butter JS -->
+    <script src="../js/butter.js"></script>
+    <!--WOW JS   -->
+    <script src="../js/wow.js"></script>
     <!-- Custom Js -->
     <script src="../js/main.js"></script>
 </body>
